@@ -57,7 +57,7 @@ To run this application on your local machine, follow these steps.
 
 1.  **Clone the repository:**
     ```shell
-    git clone <your-repository-url>
+    git clone https://github.com/abhishek-sanda/Ticket-Application.git
     cd Ticket
     ```
 
