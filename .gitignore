@@ -1,6 +1,23 @@
-# Virtual Environment
+# Virtual Environments - Ignores the virtual environment folder.
 venv/
+.venv/
+env/
 
-# Python cache
+# Environment variables - Prevents leaking secrets like API keys.
+.env*
+
+# IDE and editor configuration - For VSCode, JetBrains, etc.
+.vscode/
+.idea/
+
+# Python cache & artifacts - Ignores compiled Python files.
 __pycache__/
 .pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files - Uncomment and modify if you have local data files
+# that should not be in the repository (e.g., large CSVs).
+# data/
+# *.csv
